@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url(Text-to-Speech.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* background-size: 100%; */
+    /* background-size: auto; */
+    background-size: cover;
+    /* align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column; */
+    background: linear-gradient(45deg,rgb(12, 152, 228),rgb(218, 12, 167));
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+    gap: 20px;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+}
+span{
+    color: rgb(242, 142, 11);
+}
+textArea{
+    width: 600px;
+    height: 200px; 
+    /* text-align: center; */
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    color: black;
+    /* background-color: rgb(169,169,169); */
+    background-color: #fff;
+    outline: 0;
+} 
+.button{
+    display: flex;
+    gap: 55px;
+    /* align-items: baseline; */
+    /* background-color: aquamarine; */
+    
+}
+#listen{
+    width: 120px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: #ff2963;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: flex;
+    gap: 8px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#dropdown{
+    width: 420px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    appearance: none;
+    background-image: url(down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x: calc(100% - 10px);
+    background-position-y: 5px;
+}
+#playlogo{
+    width: 20px;
+    /* margin-left: 5px; */
+}
